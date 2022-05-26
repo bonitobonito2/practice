@@ -1,0 +1,25 @@
+.users{
+    background-color: rgb(145, 138, 138);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.26);
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.users li{
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 7px;
+}
+.users button{
+    background-color: rgb(41, 18, 27);
+    border-radius: 5px;
+    color: rgb(228, 216, 216);
+    width: 40%;
+    height: 30px;
+    font-size: 22px;
+}

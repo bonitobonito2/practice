@@ -1,0 +1,50 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index:10;
+    background-color: rgba(243, 0, 0, 0.75);
+}
+
+
+.modal{
+   
+    position: fixed;
+    top: 20vh;
+    left:35vw;
+    
+    width: 30%;
+    z-index: 100;
+    overflow: hidden;
+    background-color: rgb(202, 201, 201);
+    box-shadow: 6px 6px 6px #242323;
+}
+.header{
+    background-color: #16192b;
+    padding: 1rem;
+    text-align: center;
+    
+}
+.header p{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    display: inline;
+    color: rgb(248, 239, 239);
+}
+
+.header h2{
+    margin: 0;
+}
+.content{
+    background-color: #880000;
+    text-align: center;
+}
+.content p {
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  color: #f4f4f5;
+}
